@@ -8,7 +8,7 @@ int main()
     isUppercaseVowel = (c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U');
     if (isLowercaseVowel || isUppercaseVowel)
         printf("Vowel");
-    else if((c >= 65 && <= 92) || (c>=97 && c<=123))
+    else if((c >= 65 && c<= 92) || (c>=97 && c<=123))
         printf("Consonant");
     else 
         printf("invalid");
