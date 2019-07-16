@@ -1,11 +1,6 @@
-a=int(input())
-temp=a
-rev=0
-while(a>0):
-    digit=a%10
-    reverse=reverse*10+digit
-    a=a//10
-if(temp==reverse):
-    print("yes")
+a=list(input))
+b=list(reversed(a))
+if a==b:
+	print("yes")
 else:
-    print("no")
+	print("no")
