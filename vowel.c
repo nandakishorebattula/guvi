@@ -2,11 +2,11 @@
 
 int main()
 {
-    char c;
-    scanf("%c",&c);
-    if((c=='a')||(c=='e')||(c=='i')||(c=='o')||(c=='u'))
+    char p;
+    scanf("%c",&p);
+    if((p=='a')||(p=='e')||(p=='i')||(p=='o')||(p=='u'))
     printf("Vowel");
-    else if(c>='a' && c<='z')
+    else if(p>='a' && p<='z')
     printf("Consonant");
     else
     printf("Invalid");
