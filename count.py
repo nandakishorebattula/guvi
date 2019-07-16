@@ -1,6 +1,6 @@
-p=int(input())
+c=int(input())
 count=0
-while p!=0:
+while c!=0:
 	count+=1
-	p//=10
+	c//=10
 print(count)
